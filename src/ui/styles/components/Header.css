@@ -1,0 +1,63 @@
+header#app-header {
+    padding: 1rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+header#app-header div {
+    display: flex;
+    align-items: center;
+}
+
+header#app-header div svg {
+    margin-right: 0.5rem;
+
+    fill: #64c47f;
+    font-size: 3rem;
+
+    transform: rotate(-45deg);
+}
+
+header#app-header nav {
+    display: flex;
+    align-items: center;
+}
+
+header#app-header nav ul {
+    display: flex;
+
+    list-style: none;
+}
+
+header#app-header nav ul li {
+    font-size: 1.25rem;
+
+    border-bottom: 3px solid transparent;
+
+    cursor: pointer;
+}
+
+header#app-header nav ul li:not(:first-child) {
+    margin-left: 1.25rem;
+}
+
+header#app-header nav ul li:hover {
+    border-bottom: 3px solid #64c47f;
+}
+
+header#app-header button {
+    padding: 0.5rem 1.5rem;
+
+    background-color: #2b2937;
+    font-weight: bold;
+
+    border: none;
+    border-radius: 32px;
+
+    cursor: pointer;
+}
+
+header#app-header button:hover {
+    background-color: #64c47f;
+}
