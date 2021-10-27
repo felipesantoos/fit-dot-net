@@ -1,6 +1,8 @@
 import { BiDumbbell } from 'react-icons/bi'
+import Button from './Button';
 
 import '../styles/components/Header.css';
+import '../styles/components/Button.css';
 
 function Header() {
     return (
@@ -19,7 +21,7 @@ function Header() {
                 </ul>
             </nav>
 
-            <button>Get Free Trial</button>
+            <Button type="normal">Get Free Trial</Button>
         </header>
     );
 }

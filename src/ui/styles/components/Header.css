@@ -8,6 +8,8 @@ header#app-header {
 header#app-header div {
     display: flex;
     align-items: center;
+    
+    user-select: none;
 }
 
 header#app-header div svg {
@@ -22,6 +24,8 @@ header#app-header div svg {
 header#app-header nav {
     display: flex;
     align-items: center;
+
+    user-select: none;
 }
 
 header#app-header nav ul {
@@ -44,20 +48,4 @@ header#app-header nav ul li:not(:first-child) {
 
 header#app-header nav ul li:hover {
     border-bottom: 3px solid #64c47f;
-}
-
-header#app-header button {
-    padding: 0.5rem 1.5rem;
-
-    background-color: #2b2937;
-    font-weight: bold;
-
-    border: none;
-    border-radius: 32px;
-
-    cursor: pointer;
-}
-
-header#app-header button:hover {
-    background-color: #64c47f;
 }

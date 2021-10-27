@@ -1,3 +1,28 @@
 #home-page {
-    padding-left: 4rem;
+    padding-left: 9rem;
+}
+
+#home-page main {
+    margin-top: 3rem;
+    padding: 1rem;
+}
+
+#home-page main div.top {
+    display: grid;
+    grid-template-columns: 45fr 55fr;
+    gap: 2rem;
+}
+
+#home-page main div.top div.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#home-page main div.top div.left h1 {
+    font-size: 5rem;
+}
+
+#home-page main div.top div.left p {
+    color: rgb(201, 201, 201);
 }
