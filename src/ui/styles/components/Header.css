@@ -1,5 +1,5 @@
 header#app-header {
-    padding: 1rem;
+    padding: 1.5rem;
 
     display: flex;
     justify-content: space-between;
@@ -35,6 +35,8 @@ header#app-header nav ul {
 }
 
 header#app-header nav ul li {
+    padding: 0px 2px 2px 2px;
+
     font-size: 1.25rem;
 
     border-bottom: 3px solid transparent;

@@ -1,6 +1,6 @@
 @font-face {
-    src: url("../../assets/fonts/Title-Font.ttf");
-    font-family: "Title Font";
+    src: url("../../assets/fonts/Tomorrow-Bold.ttf");
+    font-family: "Tomorrow Bold";
 }
 
 @font-face {
@@ -29,7 +29,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Title Font", sans-serif;
+    font-family: "Tomorrow Bold", sans-serif;
     letter-spacing: 1px;
     font-weight: normal;
 }
