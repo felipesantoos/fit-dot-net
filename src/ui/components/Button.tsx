@@ -1,6 +1,8 @@
 import React from "react";
 import { ReactNode } from "react";
 
+import styles from '../styles/components/Button.module.scss';
+
 interface ButtonProps {
     children: ReactNode;
     type?: "normal" | "primary";
@@ -8,7 +10,7 @@ interface ButtonProps {
 
 function Button({ children, type }: ButtonProps) {
     return (
-        <button className={`app-button ${type}`}>
+        <button className={`${styles.container} ${styles[type!]}`}>
             {children}
         </button>
     );

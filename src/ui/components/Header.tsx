@@ -1,12 +1,11 @@
 import { BiDumbbell } from 'react-icons/bi'
 import Button from './Button';
 
-import '../styles/components/Header.scss';
-import '../styles/components/Button.scss';
+import styles from '../styles/components/Header.module.scss';
 
 function Header() {
     return (
-        <header id="app-header">
+        <header className={styles.container}>
             <div>
                 <BiDumbbell />
                 <h1>Fit.net</h1>
