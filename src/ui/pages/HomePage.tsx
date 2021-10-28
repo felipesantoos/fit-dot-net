@@ -2,8 +2,8 @@ import Header from '../components/Header';
 
 import PeopleImage from '../../assets/images/people.png';
 
-import '../styles/pages/HomePage.css';
-import '../styles/components/Button.css';
+import '../styles/pages/HomePage.scss';
+import '../styles/components/Button.scss';
 import Button from '../components/Button';
 
 function HomePage() {

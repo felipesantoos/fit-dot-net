@@ -1,0 +1,28 @@
+#home-page {
+    padding-left: 8rem;
+
+    main {
+        margin-top: 3rem;
+        padding: 1rem;
+
+        div.top {
+            display: grid;
+            grid-template-columns: 45fr 55fr;
+            gap: 2rem;
+
+            div.left {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+
+                h1 {
+                    font-size: 3.5rem;
+                }
+
+                p {
+                    color: rgb(201, 201, 201);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,61 @@
+header#app-header {
+    padding: 1.5rem;
+
+    display: flex;
+    justify-content: space-between;
+
+    div {
+        display: flex;
+        align-items: center;
+
+        user-select: none;
+
+        svg {
+            margin-right: 0.5rem;
+
+            fill: #64c47f;
+            font-size: 3rem;
+
+            transform: rotate(-45deg);
+        }
+
+        h1 {
+            font-size: 1.5rem;
+        }
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+
+        user-select: none;
+
+        ul {
+            display: flex;
+
+            list-style: none;
+
+            li {
+                padding: 0px 2px 2px 2px;
+
+                font-size: 1rem;
+
+                border-bottom: 3px solid transparent;
+
+                cursor: pointer;
+
+                &:not(:first-child) {
+                    margin-left: 1.25rem;
+                }
+
+                &:hover {
+                    border-bottom: 3px solid #64c47f;
+                }
+            }
+        }
+    }
+
+    button.app-button {
+        margin-right: 9rem;
+    }
+}

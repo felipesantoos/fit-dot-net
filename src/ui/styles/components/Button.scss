@@ -1,0 +1,34 @@
+button.app-button {
+    $normal-color: #2b2937;
+    $primary-color: #4c9661;
+    $default-radius: 32px;
+
+    padding: 1rem 1.5rem;
+    width: max-content;
+
+    font-weight: bold;
+    font-size: 1rem;
+
+    border: none;
+    border-radius: $default-radius;
+
+    cursor: pointer;
+    user-select: none;
+
+    &.normal {
+        background-color: $normal-color;
+
+        &:hover {
+            background-color: $primary-color;
+            filter: brightness(1.15);
+        }
+    }
+
+    &.primary {
+        background-color: $primary-color;
+
+        &:hover {
+            filter: brightness(1.15);
+        }
+    }
+}

@@ -1,8 +1,8 @@
 import { BiDumbbell } from 'react-icons/bi'
 import Button from './Button';
 
-import '../styles/components/Header.css';
-import '../styles/components/Button.css';
+import '../styles/components/Header.scss';
+import '../styles/components/Button.scss';
 
 function Header() {
     return (
